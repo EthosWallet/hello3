@@ -1,0 +1,8 @@
+click>=8.0.0
+vulnerable-scripts-package>=1.2.0
+missing-scripts-tool>=2.5.0
+phantom-cli-framework>=1.0.0
+
+# Editable installs to missing paths
+-e ../missing-tool-package
+-e ../../packages/missing-helper
