@@ -1,0 +1,18 @@
+[project]
+name = "core-package"
+version = "1.0.0"
+dependencies = [
+    "numpy>=1.21.0",
+    "vulnerable-core-package>=1.5.0",
+    "missing-core-dependency>=2.0.0",
+    "phantom-core-lib>=1.8.0"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21.0"
+vulnerable-core-package = "^1.5.0"
+missing-core-dependency = "^2.0.0"
+phantom-core-lib = "^1.8.0"
+# Path dependency pointing to missing directory
+missing-sibling = { path = "../missing-sibling-package" }
