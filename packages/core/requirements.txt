@@ -1,0 +1,8 @@
+numpy>=1.21.0
+vulnerable-core-package>=1.5.0
+missing-core-dependency>=2.0.0
+phantom-core-lib>=1.8.0
+
+# Editable install to missing path
+-e ../missing-sibling-package
+-e ../../tools/missing-shared-tools
